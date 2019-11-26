@@ -1,8 +1,8 @@
 segment_write_key:
-  default: ""
+  default: "yxYcOqO2ST7dpe1FgDCQSDdvXP8jmXtA"
   description: "The Write Key for your Segment Source."
 track_users:
-  default: true
+  default: false
   description: "Call the Segment identify function when a user logs in or refreshes the site."
 track_by_external_id:
   default: false
@@ -11,19 +11,19 @@ track_page:
   default: false
   description: "Track page visits by page type (tracks the latest, categories, category, tags, and topic pages.)"
 track_topic_creation:
-  default: false
+  default: true
   description: "Track topic creation."
 track_post_creation:
-  default: false
+  default: true
   description: "Track post creation."
 track_likes:
-  default: false
+  default: true
   description: "Track likes."
 track_flags:
-  default: false
+  default: true
   description: "Track flags."
 track_bookmarks:
-  default: false
+  default: true
   description: "Track bookmarks."
 extend_content_security_policy:
   type: list
